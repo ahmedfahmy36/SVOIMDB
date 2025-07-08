@@ -79,7 +79,7 @@ function App() {
       <div className="pattern" />
       <div className="wrapper">
         <header>
-          <img src="/img/hero-img.png" alt="logo" className="logo" />
+          <img src="img/hero-img.png" alt="logo" className="logo" />
           <h1 className="text-3xl font-bold  text-center">
             Find <span className="text-gradient">Movies </span> You'll enjoy
             without the hassle!
