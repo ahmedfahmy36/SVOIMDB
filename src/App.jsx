@@ -5,6 +5,7 @@ import Spinner from "./components/Spinner";
 import { useDebounce } from "react-use";
 import { getTrendingMovies, updateSearchCount } from "../appwrite";
 
+
 const API_BASE_URL = "https://api.themoviedb.org/3";
 const API_KEY = import.meta.env.VITE_TMDB_KEY;
 const API_OPTIONS = {
@@ -78,7 +79,7 @@ function App() {
       <div className="pattern" />
       <div className="wrapper">
         <header>
-          <img src="src/assets/img/hero-img.png" alt="logo" className="logo" />
+          <img src="/img/hero-img.png" alt="logo" className="logo" />
           <h1 className="text-3xl font-bold  text-center">
             Find <span className="text-gradient">Movies </span> You'll enjoy
             without the hassle!
