@@ -18,6 +18,7 @@
   --breakpoint-xs: 480px;
 
   --background-image-hero-pattern: url("/SVOIMDB/img/project-background.png");
+  --background-image-hero-pattern: url("/SVOIMDB/img/project-background.png");
 }
 
 @layer base {
